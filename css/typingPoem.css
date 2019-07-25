@@ -1,0 +1,79 @@
+#typeing{
+  font-family: 'Adobe 명조 std';
+  font-size: 20pt;
+  width:1400px;
+}
+
+#scorePanel{
+  width: 1350px;
+  display: inline;
+}
+
+#score, #timer, #min, #sc, #score2, #min2, #sec2{
+  display: inline;
+}
+
+#typingText{
+width:800px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 18pt;
+  font-family: 'Adobe 명조 std';
+}
+
+#poem1{
+  background-color: white;
+  color: #656565;
+}
+
+.setPoem{
+  color:white;font-weight: 400; font-size: 20pt;
+}
+
+#poemBg{
+  border-radius: 10px;
+  width:1000px;
+  height: 1400px;
+  padding: 10px;
+  /* opacity: 0.7; */
+}
+
+#mask{
+  background-color: rgba(0, 0, 0, 0.61);
+  width: 100%;
+  height: 100%;
+  display:none;
+}
+
+#recordPan{
+  background-color: rgb(255, 255, 255);
+  border : 3px solid rgb(255, 229, 11);
+  border-radius: 10px;
+  color: rgb(255, 229, 11);
+  width: 800px;
+  height: 500px;
+  left:600px;
+  top: 200px;
+  font-size: 30pt;
+  position:fixed;
+  display: none;
+}
+
+#taul{
+font-size: 110pt;
+font-weight: 400;
+margin-bottom: 10px;
+}
+
+.endBtn{
+  margin-top: 10px;
+  font-family: 'DX시인과나';
+  background-color: rgb(255, 229, 11);
+  border : 3px solid rgb(255, 185, 0);
+  border-radius: 10px;
+  color: white;
+  width: 300px;
+  height: 70px;
+  font-size: 30pt;
+}

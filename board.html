@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>이상한 이야기</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script type="text/javascript" src="js/board.js"></script>
+    <link rel="stylesheet" href="css/listAll.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/board.css">
+    <link rel="stylesheet" type="text/css" href="css/textAnimation.css">
+</head>
+<body>
+<div id="dark"></div>
+<div id="insert">
+  <button class="endBtn" onclick="getOut()" style="margin-left: 475px;background-color:rgb(241, 176, 8);border : 1px solid rgb(241, 176, 8);color:white; width:100px;">나가기</button>
+  <form style="margin-left:40px;">
+    I&nbsp;&nbsp;&nbsp;&nbsp;D  &nbsp;&nbsp;<input type="text" id="id" style="margin-bottom:20px;"/><br>
+    PASS  &nbsp;&nbsp;<input type="text" id="pass"/><br><br>
+    내&nbsp;&nbsp;용<br><textarea name="comment" id="comment" style="width:380px;"></textarea>
+    <button onclick="newComment()" style="position:absolute; top:300px; margin-left: 55px;background-color:rgb(241, 176, 8);border : 1px solid rgb(241, 176, 8);color:white; width:100px;">저장</button>
+  </form>
+   		</div><br>
+</div>
+  <header id="head">
+      <a href="index.html" id="header">이상한, 이야기</a>
+      <!-- nav : 네비게이터 부분, 사이트 메뉴 -->
+      <nav id="menu">|&nbsp;&nbsp;<a href="profile.html">프로필</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="display.html">작품</a>&nbsp;&nbsp;|
+        &nbsp;<a href="life.html">이상의 삶</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="etc.html">기타정보</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="board.html">게시판</a>&nbsp;&nbsp;|</nav>
+  </header>
+  <hr>
+
+    <!-- top article -->
+    <article id="top" title="페이지 상단">
+      <div class="topTitle"><h1>이상한 게시판&nbsp;&nbsp;&nbsp;</h1></div>
+    </article>
+
+    <button id="btn" onclick="getIn()">+</button>
+
+    <!-- boardlist -->
+      <article id="board">
+      </article>
+    <!-- <hr id="hrProfile"> -->
+
+    <footer id="fot"><hr>Copyright (c) 2018 이상한 이야기  Allrights reserved</footer>
+</body>
+</html>

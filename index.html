@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>이상한 이야기</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/jquery.waterwheelCarousel.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/waterwheelcarousel.css">
+    <link rel="stylesheet" type="text/css" href="css/textAnimation.css">
+    <!-- <link rel="stylesheet" href="index_flex.css" media="only screen and (min-width: 0px) and (max-width: 1400px)" rel="stylesheet"> -->
+</head>
+<body>
+    <header id="head">
+        <a href="index.html" id="header">이상한, 이야기</a>
+        <!-- nav : 네비게이터 부분, 사이트 메뉴 -->
+        <nav id="menu">|&nbsp;&nbsp;<a href="profile.html">프로필</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="display.html">작품</a>&nbsp;&nbsp;|
+          &nbsp;<a href="life.html">이상의 삶</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="etc.html">기타정보</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="board.html">게시판</a>&nbsp;&nbsp;|</nav>
+    </header>
+    <hr>
+
+    <!-- main article -->
+    <article id="main" title="홈 화면의 이미지와 한마디가 들어있는 article부분">
+    <section>
+        <div id="titleImg" class="fadeInRight animated">
+            <img src="./img/1.jpg" alt="소개 사진" id="headImg">
+            <br><br>
+        </div>
+    </section>
+        <div id="title">
+            <h1 style="font-size:50pt; color:rgb(24, 44, 128); font-weight: 900; display: block;" class="fadeInLeft animated" >이상한 이야기</h1>
+            <span style="display: block;" class="fadeInUp animated">
+            <pre>당신이 알지 못했던,
+               <b>李箱</b>의 <b>異常</b>한 이야기.</pre>
+            </span>
+        </div>
+    </article>
+
+    <!-- 프로필 박스 article : 프로필로 넘어갈 수 있는 링크  -->
+    <article id="profileBox">
+      <section>
+        <div id="profile">
+            <img src="./img/2.jpg" alt="프로필 사진" id="profileImg">
+        </div>
+        <div id="profileText">
+            <font id="profileTextHead">시대를 앞서나간 현대 한국문학계의 천재</font><br><br>
+            <span style="display: block;" class="profileLine">"박제가 되어버린 천재를 아시오?"<br></span>
+              <span style="display: block;" class="profileLine">29살이라는 젊은 나이에 세상을 떠난 이상,<br></span>
+              <span style="display: block;" class="profileLine">그 짧은 생 조차도 그의 인생은 여우곡절이 많다.</span><br>
+              <span style="display: block;" class="profileLine">박제가 되어버린 천재, 이상을 만나러 가자.</span>
+            <a href="life.html" target="_self" id="esang"> > 이상의 삶 알아보러가기</a>
+        </div>
+      </section>
+    </article>
+
+    <!-- 작품 circle : 작품 메뉴로 넘어갈 수 있는 링크 -->
+    <article id="poemCircle" >
+        <div id="carousel">
+          <div align="center" id="item-0">
+            <a href="https://ko.wikisource.org/wiki/%EC%98%A4%EA%B0%90%EB%8F%84" target="_blank"><font class="poem">
+                <font class="poemTitleHead">오감도</font>
+                 <br><font style="font-family: 'Adobe 명조 std';">烏瞰圖</font>
+                 <br> 까마귀 오 ; 굽어볼 감 ; 그림 도
+                 <br>하늘에 난 까마귀가 굽어보는 그림.
+                 <br>조선중앙일보에 연재된 이상의 난해시.
+              </font></a>
+          </div>
+          <div id="item-1">
+            <a href="https://ko.wikisource.org/wiki/%EC%9D%B4%EC%83%81%ED%95%9C_%EA%B0%80%EC%97%AD%EB%B0%98%EC%9D%91" target="_blank"><font class="poem">
+              <font class="poemTitleHead">이상한 가역반응</font>
+               <br><font style="font-family: 'Adobe 명조 std';">異常ナ可逆反應</font>
+               <br> "직선은 원을 살해하였는가."
+               <br> 사랑했던 기생이 다른 남자와 노는 것을 보고 쓴 시.
+               <br> 조선과건축 7월호에 실린 일어로 된 시.
+             </font></a>
+            </div>
+          <div id="item-2">
+            <a href="https://ko.wikisource.org/wiki/%ED%8C%8C%ED%8E%B8%EC%9D%98_%EA%B2%BD%EC%B9%98" target="_blank"><font class="poem">
+              <font class="poemTitleHead">파편의 경치</font>
+               <br><font style="font-family: 'Adobe 명조 std';">破片ノ景色</font>
+               <br> "나는하는수없이울었다"
+               <br> 일본에 건너가 살 적 억압받던 이상의 시.
+               <br> 조선과건축 7월호에 실린 일어로 된 시.
+            </font></a>
+          </div>
+          <div id="item-3">
+            <a href="https://ko.wikisource.org/wiki/%E2%96%BD%EC%9D%98_%EC%9C%A0%ED%9D%AC" target="_blank"><font class="poem">
+              <font class="poemTitleHead">▽의 유희</font>
+               <br><font style="font-family: 'Adobe 명조 std';">▽ノ遊戯</font>
+               <br> "전보는아직오지아니하였다"
+               <br> 전등 하나에서 파고들어가는 자아에 무관심한 사람들
+               <br> 조선과건축 7월호에 실린 일어로 된 시.
+               </font></a>
+          </div>
+          <div id="item-4">
+            <a href="https://ko.wikisource.org/wiki/BOITEUX_BOITEUSE" target="_blank"><font class="poem">
+              <font class="poemTitleHead">BOITEUXㆍBOITEUSE</font>
+               <br><font style="font-family: 'Adobe 명조 std';"> ; 절음발이 </font>
+               <br> "침묵은침묵이냐"
+               <br> 기독교에 대한 비판적인 그의 생각.
+               <br> 조선과건축 7월호에 실린 일어로 된 시.
+              </font></a>
+          </div>
+          <div id="item-5">
+            <a href="https://ko.wikisource.org/wiki/%EC%9D%B4%EB%9F%B0_%EC%8B%9C" target="_blank"><font class="poem">
+              <font class="poemTitleHead">이런시</font>
+               <br><font style="font-family: 'Adobe 명조 std';">이런시</font>
+               <br> "자 그러면 내내 어여쁘소서"
+               <br> 묵직하게 울리는 못올 사랑을 그리는 시.
+               <br> 가톨릭청년 7월호에 실린 한글로 된 시.
+            </font></a>
+          </div>
+          <div id="item-6">
+            <a href="https://ko.wikisource.org/wiki/%EA%B3%B5%EB%B3%B5" target="_blank"><font class="poem">
+              <font class="poemTitleHead">공복</font>
+               <br><font style="font-family: 'Adobe 명조 std';">空腹</font>
+               <br> "내희망은감미로웁다"
+               <br> 반파시즘적 정서가 가장 잘 나타나는 시.
+               <br> 조선과건축 7월호에 실린 일어로 된 시.
+            </font></a>
+          </div>
+          <div id="item-7">
+            <a href="https://ko.wikisource.org/wiki/%EC%A1%B0%EA%B0%90%EB%8F%84" target="_blank"><font class="poem">
+              <font class="poemTitleHead">조감도</font>
+               <br><font style="font-family: 'Adobe 명조 std';">鳥瞰圖</font>
+               <br> "一▽은 나의 AMOUREUSE이다."
+               <br> 하늘에 난 새가 굽어보는 그림. 오감도 앞서 쓴 시
+               <br> 조선과건축 8월호에 실린 일어로 된 시.
+            </font></a>
+          </div>
+        </div>
+    </article>
+
+    <!-- 기타정보 box : 도서, 동영상, 영화로 넘어갈 수 있는 링크 -->
+    <article id="etc">
+    <a href="etc.html" target="_self">
+      <div class="etcBox" id="firstBox">
+        <h3>도서 정보</h3>
+      </div>
+    </a>
+
+    <a href="etc.html" target="_self">
+      <div class="etcBox" id="secondBox">
+        <h3>동영상 정보</h3>
+      </div>
+    </a>
+    <a href="etc.html" target="_self">
+      <div class="etcBox" id="thirdBox">
+        <h3>영화 정보</h3>
+      </div>
+    </a>
+    </article>
+    <br>
+
+    <footer id="fot"><hr>Copyright (c) 2018 이상한 이야기  Allrights reserved</footer>
+</body>
+</html>

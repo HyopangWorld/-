@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+#display{margin: 80px 250px 0px 250px;}
+#buttonPlace {margin: 0px 73px 0px 73px;  width:1265px;}
+.displayBtn{width:625px; height: 50px; background-color: white; border: solid rgb(48, 48, 48) 1px; font-size: 13pt;}
+#poemBtn:hover {width:625px; height: 50px; background-color: rgb(48, 48, 48); border: solid black 1px; color:white;font-size: 13pt;}
+#novelBtn:hover {width:625px; height: 50px; background-color: rgb(48, 48, 48); border: solid black 1px; color:white;font-size: 13pt;}
+.displayBtnOn{width:625px; height: 50px; background-color: rgb(48, 48, 48); border: solid black 1px; color:white;font-size: 13pt;}
+
+.fadeOutDisplay{visibility: hidden;}
+
+/* 시 작품 상자 */
+#displayPlacePoem{width:1300px; height: 1020px; margin: 50px 50px 100px 50px; position:absolute; }
+.poemBox{position: absolute; width:350px; height: 480px; border: solid rgb(172, 172, 172) 1px; border-radius: 30px; }
+
+/* .poemBox:hover{width:350px; height: 480px; border: solid rgb(172, 172, 172) 1px; border-radius: 30px; opacity: 0.5;} */
+.box1{top:0px; left: 50px;} .i1{background-image: url('../img/2.jpg'); background-size: 100%;}
+.box2{top:0px; left: 475px;} .i2{background-image: url('../img/19.jpg');}
+.box3{top:0px; left: 900px;} .i3{background-image: url('../img/16.jpg');}
+.box4{top:550px; left:50px;} .i4{background-image: url('../img/20.jpg');}
+.box5{top:550px; left:475px;} .i5{background-image: url('../img/23.jpg'); background-size: 120%;}
+.box6{top:550px; left:900px;} .i6{background-image: url('../img/15.jpg');}
+
+.poemBox hr{border: solid rgb(210, 208, 208) 0.3px; margin: 10px 0px 13px 0px; }
+.poemBox img{width:315px; height: 380px; border-radius: 20px; margin-top: 15px;}
+.poemBox font{font-family: 'Adobe 명조 std'; font-size: 22pt; font-weight: 600; margin-left: 10px; color:white; z-index: 300;}
+.poemBox span{font-family: 'Adobe 명조 std'; font-size: 12pt; font-weight: 500; margin: 100px 10px 0px 10px; color:white; z-index: 300;}
+.back{opacity: 0.7; font-weight: 400;}
+
+.topTitle h1{ font-family: 'Adobe 명조 std'; font-size: 50pt; padding: 70px 0px 0px 0px; font-weight: 700;}
+#header{font-size: 20pt; font-family: 'DX시인과나';}
+nav#menu{font-weight: 500; float: right; padding-right:1000px; font-size:16pt; padding-top:4px; font-family: 'Adobe 명조 std';}
+hr{margin:0px; border: solid rgb(159, 154, 154) 0.4px;}
+#head{ padding: 22px 0px 7px 45px; background-color: white; }
+body{margin: 0px 5px 5px 5px;}
+
+/* card flip */
+.flip-container .flipper:hover, .flip-container.hover .flipper {
+  -webkit-transform: rotateY(180deg);
+}
+.flipper {
+  position: absolute;
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+  width:350px; height: 480px;
+  /* position: relative; top:0px; left:0px; */
+}
+.front, .back {
+	-webkit-backface-visibility: hidden;
+}
+.front {
+  z-index: 2;
+}
+.back {
+  -webkit-transform: rotateY(180deg);
+}
+
+/* 소설 작품 상자*/
+#displayPlaceNovel{width:1300px; height: 1020px; margin: 50px 50px 100px 50px; }
+.novelBox{width:1000px; height: 450px;margin-left: 145px; margin-bottom : 50px;}
+.novelHead{width:400px; margin-left: 10px; float:left;}
+.novleImg{width:300px; height: 350px; margin-bottom: 10px; margin-right: 40px; margin-left: 40px;}
+.novelInner{margin: 20px 0px 0px 450px; font-family: 'Adobe 명조 std'; font-size: 13pt;}
+.novelInner h2{font-family: 'Adobe 명조 std'; font-size: 18pt;}
+
+#fot {margin: 500px 0px 0px 0px;background-color: rgb(255, 255, 255);}

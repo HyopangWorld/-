@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body{margin-left:5px; margin-right:5px; margin-top:0px; font-size:10pt; margin-top:0px; font-family: 'DX시인과나'; background-image: url(../img/bg7.png); background-size: 100%;}
+
+/* <!-- main article --> */
+#main{border: solid rgb(24, 44, 128) 1px; width:1500px; height:800px; margin: 10px 200px 0px 200px; position:absolute; z-index: -1;  background-color: rgb(255, 255, 255);}
+#title{margin-left:150px; margin-top:300px; margin-bottom: 130px; font-family: 'Adobe 명조 std'; }
+#titleImg{margin-top: 150px; margin-right:200px; float:right; }
+#headImg{width:350px; height:430px; margin-left:20px; border: solid gray 2px; padding:0px;}
+
+pre{font-size:25pt; font-family: 'Adobe 명조 std'; font-weight: 500;}
+
+/* <!-- 프로필 박스 article : 프로필로 넘어갈 수 있는 링크  --> */
+#profileBox{border: solid GRAY 0.3px; width:1020px; height:500px; margin-top: 750px;  background-color: white; position: absolute; opacity: 0;}
+#profileImg{width:350px; height:380px; margin:60px; border: solid gray 3px; position: absolute;}
+#profileText{margin: 85px 0px 0px 460px;  position: absolute; font-size: 16pt;}
+#profileTextHead{font-size: 20pt; font-family: 'Adobe 명조 std'; font-weight: 700;}
+#esang:link { color: GRAY; text-decoration: none;}
+#esang:visited { color: GRAY; text-decoration: none;}
+#esang:hover { color: black; text-decoration: none; font-weight: 600;}
+
+/* <!-- 작품 circle : 작품 메뉴로 넘어갈 수 있는 링크 --> */
+.poemTitleHead {font-size: 38pt; font-family: 'Adobe 명조 std'; font-weight: 700;}
+.poem{font-size: 15pt; }
+#carousel a{margin-right: 30px;}
+#poemCircle{margin: 1400px 120px 0px 120px;}
+
+/* <!-- 기타정보 box : 도서, 동영상, 영화로 넘어갈 수 있는 링크 --> */
+.etcBox{border: 1px solid gray; width:500px; height: 300px; margin: 100px 0px 50px 150px; position: absolute; background-color: white; font-size: 28pt; text-align: center; color: rgb(24, 44, 128); box-shadow: 5px 5px 3px #aaaaaa;}
+.etcBox h3{margin-top: 200px; background-color:white; }
+.etcBox:hover{opacity: 0.3;border: 1px solid gray; width:500px; height: 300px; margin: 150px 0px 50px 150px; position: absolute; background-color: white; color: rgb(24, 44, 128); box-shadow: 5px 5px 3px #aaaaaa;}
+#firstBox{left:20px; background-image: url(../img/library.jpg); background-size: 100%;}
+#secondBox{left:540px; background-image: url(../img/youtube.png); background-size: 100%;}
+#thirdBox{left:1060px; background-image: url(../img/cinema.jpg); background-size: 100%;}
+
+/* footer */
+#fot {margin: 450px 0px 0px 0px; background-color: rgb(255, 255, 255);}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>이상한 이야기</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/display.js"></script>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/listAll.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/display.css">
+    <link rel="stylesheet" type="text/css" href="css/textAnimation.css">
+</head>
+<body>
+  <header id="head">
+      <a href="index.html" id="header">이상한, 이야기</a>
+      <!-- nav : 네비게이터 부분, 사이트 메뉴 -->
+      <nav id="menu">|&nbsp;&nbsp;<a href="profile.html">프로필</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="display.html">작품</a>&nbsp;&nbsp;|
+        &nbsp;<a href="life.html">이상의 삶</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="etc.html">기타정보</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="board.html">게시판</a>&nbsp;&nbsp;|</nav>
+  </header>
+  <hr>
+
+    <!-- top article -->
+    <article id="top" title="페이지 상단">
+      <div class="topTitle"><h1>작품</h1></div>
+    </article>
+    <!-- <hr id="hrProfile"> -->
+
+    <!-- profile article -->
+    <article id="display" title="작품소개">
+      <section id="buttonPlace">
+      <button type="button" name="button" class="displayBtn displayBtnOn" id="poemBtn" onclick="poemClick()">異常한 時</button>
+      <button type="button" name="button" class="displayBtn" id="novelBtn" onclick="novelClick()">異常한 小說</button>
+      </section>
+      <!-- poem -->
+      <section id="displayPlacePoem" class="flip-container">
+        <a href="typingPoem.html?poem=0"><div class="flipper box1" ><div class="poemBox w3-panel w3-card front  i1"><br><hr><font>오감도</font><span>1934年 <br>&nbsp;#추상적 #난해</span></div>
+          <div class="poemBox w3-panel w3-card back i1"><br><font>(烏瞰圖) 제 一호</font><span><br><br>
+            十三人의兒孩가道路로疾走하오. <br>
+            (길은막달은골목이適當하오.)<br>
+
+            第一의兒孩가무섭다고그리오.<br><br>
+            (중략)<br><br>
+            十三人의兒孩는무서운兒孩와무서워하는兒孩와그러케뿐이모혓소.<br>
+            (다른事情은업는것이차라리나앗소)<br>
+
+            그中一人의兒孩가무서운兒孩라도좃소<br>
+            그中二人의兒孩가무서운兒孩라도좃소<br>
+            그中二人의兒孩가무서워하는兒孩라도좃소<br>
+            그中一人의兒孩가무서워하는兒孩라도좃소<br>
+
+            (길은뚤닌골목이라도適當하오.)<br>
+            十三人의兒孩가道路로疾走하지아니하야도좃소.</span></div></div></a>
+        <a href="typingPoem.html?poem=1"><div class="flipper box2" ><div class="poemBox w3-panel w3-card front i2"><br><hr><font>이런시</font><span>1980年 <br>&nbsp;#사랑시 #슬픈시</span></div>
+          <div class="poemBox w3-panel w3-card back i2"><br><font>이런시</font><span><br><br>
+            역사(役事)를하노라고 땅을파다가<br>
+            커다란돌을하나 끄집어 내어놓고보니<br>
+            (중략)<br>
+            어떤돌이와서 그돌을업어갔을까<br>
+            나는참이런처량(悽凉)한생각에서<br>
+            아래와같은작문(作文)을지었다<br>
+            <font style="color:rgb(255, 0, 0); font-size:12pt; font-weight:800;">
+            「내가 그다지 사랑하던 그대여<br>
+            내한평생(平生)에<br>
+            차마 그대를 잊을수없소이다.<br>
+            내차례에 못올사랑인줄은 알면서도<br>
+            나혼자는 꾸준히생각하리라.<br>
+            자그러면 내내어여쁘소서」<br><br>
+            </font>
+            어떤돌이 내얼굴을 <br>물끄러미 치어다보는것만같아서<br>
+            이런시(詩)는그만찢어버리고싶더라</span></div></div></a>
+        <a href="typingPoem.html?poem=2"><div class="flipper box3" ><div class="poemBox w3-panel w3-card front i3"><br><hr><font>거울</font><span>1933年 <br>&nbsp;#감각적 #모던</span></div>
+         <div class="poemBox w3-panel w3-card back i3"><br><font>거울</font><span><br><br>
+           거울속에는소리가없오<br>
+           저렇게까지조용한세상은참없을것이오<br>
+           거울속에도내게귀가있오<br>
+           내말을못알아듣는딱한귀가두개나있오<br>
+           거울속의나는왼손잡이요<br>
+           내악수(握手)를받을줄모르는―<br>
+           악수(握手)를모르는왼손잽이요<br>
+           (중략)<br>
+           나는지금(至今)거울을안가졌오마는<br>
+           거울속에는늘거울속의내가있오<br>
+           잘은모르지만외로된<br>
+           사업(事業)에골몰할께요<br>
+           거울속의나는참나와는<br>
+           반대(反對)요마는또꽤닮았오<br>
+           나는거울속의나를근심하고<br>
+           진찰(診察)할수없으니퍽섭섭하오<br>
+         </span></div></div></a>
+        <a href="typingPoem.html?poem=3"><div class="flipper box4" ><div class="poemBox w3-panel w3-card front i4"><br><hr><font>진 단 0 : 1</font><span>1933年 <br>&nbsp;#패러독스 #수학기호 #이공계</span></div>
+         <div class="poemBox w3-panel w3-card back i4"><br><font>진 단 0 : 1</font><span><br><br>
+           혹은환자의용태에관한문제.<br>
+           <center>１１１１１１１１１１ㆍ<br>
+           ２２２２２２２２２ㆍ１<br>
+           ３３３３３３３３ㆍ２２<br>
+           ４４４４４４４ㆍ３３３<br>
+           ５５５５５５ㆍ４４４４<br>
+           ６６６６６ㆍ５５５５５<br>
+           ７７７７ㆍ６６６６６６<br>
+           ８８８ㆍ７７７７７７７<br>
+           ９９ㆍ８８８８８８８８<br>
+           ０ㆍ９９９９９９９９９<br>
+           ㆍ００００００００００</center>
+           진단 0 : 1<br>
+           26.10.1931 <br>
+           이상 책임의사 이 상
+         </span></div></div></a>
+        <a href="typingPoem.html?poem=4"><div class="flipper box5" ><div class="poemBox w3-panel w3-card front i5"><br><hr><font>건축무한육면각체</font><span>1980年 <br>&nbsp;#다다이즘 #자동기술법 #에스컬레이터</span></div>
+         <div class="poemBox w3-panel w3-card back i5"><br><font>(建築無限六面角体)</font><span><br><br>
+          사각형의내부의사각형의내부의사각형의내부의사각형의내부의사각형
+          사각이난원운동의사각이난원운동의사각이난원
+          (중략)
+          평행사변형대각선방향을추진하는막대한중량
+          (중략)
+          만곡된직선을직선으로질주하는낙체공식
+          시계문자반에Ⅻ에내리워진일개의침수된황혼
+          명함을짓밟는군용장화.가구를질구하는조화분연
+          위에서내려오고밑에서올라가고위에서내려오고밑에서올라간사람은
+          밑에서올라가지아니한위에서내려오지아니한밑에서올라가지아니한위에서내려오지아니한사람
+          저여자의하반은저남자의상반에흡사하다(나는애련한후에애련하는나)
+          사각이난케이스가걷기시작이다(소름이끼치는일이다)
+          라지에터의근방에서승천하는굳바이
+          바깥은우중.발광어류의군집이동
+        </span></div></div></a>
+        <a href="typingPoem.html?poem=5"><div class="flipper box6" ><div class="poemBox w3-panel w3-card front i6"><br><hr><font>꽃나무</font><span>1980年 <br>&nbsp;#자아탐색 #비판적</span></div>
+         <div class="poemBox w3-panel w3-card back i6"><br><font>꽃나무</font><span><br><br><br><br>
+          벌판한복판에 꽃나무하나가있소. <br>
+          근처(近處)에는꽃나무가하나도없소. <br>
+          꽃나무는제가생각하는꽃나무를 <br>
+          열심(熱心)으로생각하는것처럼 <br>
+          열심으로꽃을피워가지고섰소. <br>
+          꽃나무는제가생각하는꽃나무에게갈수없소. <br>
+          나는막달아났소. <br>
+          한꽃나무를위(爲)하여 그러는것처럼 <br>
+          나는참그런이상스러운흉내를내었소.<br>
+        </span></div></div></a>
+      </section>
+
+      <!-- novel -->
+      <section id="displayPlaceNovel" class="fadeOutDisplay">
+        <div class="novelBox w3-panel w3-card"><br>
+          <div class="novelHead"> <img class="novleImg" src="img/12.jpg" alt="" ><br><font>날개</font><hr><span>1980年&nbsp; #무기력한 자아 #주체성</span></div>
+          <div class="novelInner"><br>
+            <h2> " 날자. 날자. 날자. 한번만 더 날자꾸나 "</h2>
+            <i> 조광 9월호에 발표되었던 소설</i><br><br><br><br>
+            이상의 단편소설. <br>
+            의식의 흐름 기법을 사용한 것으오 유명하다. <br>
+            매춘부의 기둥서방으로 사는 남자의 자폐적인 일상과 <br>
+            무기력한 주인공의 모습이 음울하게 그려지고 있다. <br>
+            이상의 사소설이라고 볼 수도 있지만<br> 심리소설로 분석되는 경향이 보편적이다.
+          </div>
+        </div>
+        <div class="novelBox w3-panel w3-card"><br>
+          <div class="novelHead"> <img class="novleImg" src="img/am.jpg" alt="" ><br><font>지도의 암실</font><hr><span>1932年&nbsp;#사회비판적 #자아탐색 #주체성</span></div>
+          <div class="novelInner"><br>
+            <h2> " 活胡同是死胡同 死胡同是活胡同 "</h2>
+            <i> 조광 9월호에 발표되었던 소설</i><br><br><br><br>
+            "사는 것이 어찌하여 이와 같으며, 죽음이 어째서 같은가.  <br>
+            죽음이 어째서 이와 같으며, 사는 것이 같은가 " <br>
+            불어와 한글, 한문, 일어가 섞인데다가 띄어쓰기를 제대로  <br>
+            하지않는 이상의 특성으로 해석하기 힘든 소설이다.<br> 일제에 반감이 있는 소설이라는 설이 있지만,<br> 일어로 쓰인점이 의문
+          </div>
+        </div>
+        <div class="novelBox w3-panel w3-card"><br>
+          <div class="novelHead"> <img class="novleImg" src="img/34.jpg" alt="" ><br><font>종생기[終生記]</font><hr><span>1937年&nbsp;#고백체적 #이상의 죽음</span></div>
+          <div class="novelInner"><br>
+            <h2> " 만26세30개월을 맞이하는 이상 선생님이여!<br>허수아비여! 자네는 노옹(老翁)일세. <br>무릎이 귀를 넘는 해골일세. "</h2>
+            <i> 조광 5월호에 발표되었던 소설</i><br><br>
+            부정(不貞)과 배신을 일삼는 여자를 사랑하는 <br>
+            주인공의 현재의 모습과 어두운 개인사(個人史)가 교차하면서<br>
+            극히 자학적으로 전개된 일본에서 쓰인 소설 <br> 이 소설은 이상 본인이 실체화 되어 나오며
+            <br> 건강악화로 자신의 죽음이 다가올 즈음 집필되었다.
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <footer id="fot"><hr>Copyright (c) 2018 이상한 이야기  Allrights reserved</footer>
+</body>
+</html>

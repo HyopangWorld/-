@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>이상한 이야기</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="typingPoem.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/textAnimation.css">
+    <link rel="stylesheet" type="text/css" href="css/typingPoem.css">
+    <!-- <link rel="stylesheet" href="index_flex.css" media="only screen and (min-width: 0px) and (max-width: 1400px)" rel="stylesheet"> -->
+</head>
+<body>
+  <div id="mask"></div>
+  <header id="head">
+      <a href="index.html" id="header">이상한, 이야기</a>
+      <!-- nav : 네비게이터 부분, 사이트 메뉴 -->
+      <nav id="menu">|&nbsp;&nbsp;<a href="profile.html">프로필</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="display.html">작품</a>&nbsp;&nbsp;|
+        &nbsp;<a href="life.html">이상의 삶</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="etc.html">기타정보</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="board.html">게시판</a>&nbsp;&nbsp;|</nav>
+  </header>
+  <hr>
+
+  <center>
+    <br><br>
+    <div id="typeing">
+    <div id="scorePanel">
+      틀린 갯수 : <div id="score">0</div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button class="endBtn" onclick="stopPlay()">STOP</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <div id="timer" style="width:300px;"><div id="min">00</div> : <div id="sc">00</div></div>
+    </div>
+  <br><br>
+  <div id="poemBg">
+  <div id="poemDiv"></div>
+      <div id="poem1"></div>
+      <input type="text" id="typingText"><br>
+    </div>
+  </div>
+  </center>
+
+
+    <div id="recordPan">
+      <center><div id="taul"></div>
+      틀린갯수&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<div id="score2"></div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      총 시간&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<div id="min2"></div> : <div id="sec2"></div><br>
+      <button class="endBtn" onclick="getOut()">나가기</button>
+    </center>
+    </div>
+
+    <footer id="fot" style="margin: 400px 0px 0px 0px;"><hr>Copyright (c) 2018 이상한 이야기  Allrights reserved</footer>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      function returnPoem(){
+        var poem = document.getElementById('poem').value;
+        var rePoem = poem.replace(/ /gi,"#");
+        alert(rePoem);
+        document.getElementById('txt').innerHTML = rePoem;
+      }
+
+      function spacePoem(){
+          var poem = document.getElementById('poem2').value;
+          var rePoem = poem.replace(/([#*.a-zA-Z0-9가-힣])/gi,"$1 ");
+          alert(rePoem);
+          document.getElementById('txt2').innerHTML = rePoem;
+      }
+
+    </script>
+  </head>
+  <body>
+    <input type="text" id="poem">
+    <button onclick="returnPoem()">입력</button>
+    <br>
+    <div id="txt"></div>
+<br>
+    <input type="text" id="poem2">
+    <button onclick="spacePoem()">입력</button>
+    <br>
+    <div id="txt2"></div>
+  </body>
+</html>

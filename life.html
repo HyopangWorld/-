@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>이상한 이야기</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/life.js"></script>
+    <link rel="stylesheet" href="css/listAll.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/life.css">
+    <link rel="stylesheet" type="text/css" href="css/textAnimation.css">
+</head>
+<body>
+  <header id="head">
+      <a href="index.html" id="header">이상한, 이야기</a>
+      <!-- nav : 네비게이터 부분, 사이트 메뉴 -->
+      <nav id="menu">|&nbsp;&nbsp;<a href="profile.html">프로필</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="display.html">작품</a>&nbsp;&nbsp;|
+        &nbsp;<a href="life.html">이상의 삶</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="etc.html">기타정보</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="board.html">게시판</a>&nbsp;&nbsp;|</nav>
+  </header>
+  <hr>
+
+    <!-- top article -->
+    <article id="top" title="페이지 상단">
+      <div class="topTitle"><h1>이상의 삶</h1></div>
+      <img src="img/2.jpg"  alt="" id="img" class="fadeInRight animated">
+    </article>
+
+    <!-- menu button -->
+    <article id="menuBtns">
+      <hr>
+      <button class="btns displayBtnOn" id="growBtn" onclick="growBtn()"></button>
+      <button class="btns" id="realationBtn" onclick="realationBtn()"></button>
+      <button class="btns" id="episodeBtn" onclick="episodeBtn()"></button>
+      <div class="btnstitle">
+        성장과정 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  연인 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 에피소드
+      </div>
+    </article>
+
+    <article class="lifeBox w3-panel w3-card">
+      <div id="lifeHead">성장과정</div>
+      <hr>
+      <div id="lifeInner">뉴에삐요</div>
+      </div>
+      <a href="https://namu.wiki/w/%EC%9D%B4%EC%83%81(%EC%9E%91%EA%B0%80)" target="_blank"><button id="lifeBtn">나무 위키 링크</button></a>
+    </article>
+
+    <!-- <hr id="hrProfile"> -->
+
+    <footer id="fot"><hr>Copyright (c) 2018 이상한 이야기  Allrights reserved</footer>
+</body>
+</html>
